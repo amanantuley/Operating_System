@@ -1,84 +1,126 @@
-# Bash Scripting 🚀
 
-Welcome to the **Bash Scripting** repository! 🖥️ This repository contains useful and practical Bash scripts to automate tasks, manage systems, and enhance your workflow. 🚀🐧
 
-## 📌 Features
+# 🧠 Operating Systems Lab in C (OSL-C)
 
-✅ Automate repetitive tasks  
-✅ System administration & management scripts  
-✅ File handling & processing  
-✅ Network & server utilities  
-✅ Fun & useful scripts  
+Welcome to the **Operating Systems Lab** repository! 🖥️  
+This repository includes various **OS-based programs implemented in C**, covering core concepts such as process scheduling, memory management, synchronization, and system calls.
 
-## 📂 Folder Structure
+---
 
-```
-📦 Bash-Scripting
-├── 📜 script1.sh  # Description of script1
-├── 📜 script2.sh  # Description of script2
-├── 📜 utils.sh    # Utility functions
-└── 📜 README.md   # You are here!
-```
+## 📘 About
+
+This repository serves as a hands-on resource for understanding key **Operating System principles** through practical **C programs**. Ideal for students, developers, and anyone interested in systems programming.
+
+---
+
+## 🔍 Key Topics Covered
+
+### 🧾 Process Management
+- `FCFS_10.c`: First Come First Serve scheduling
+- `FIFO.c`: Page replacement using FIFO algorithm
+- `FSFC.c`: File system with First Fit allocation
+- `First_Fit.c`: Memory allocation using First Fit
+- `Bankers_Algorithm.c`: Deadlock avoidance using Banker’s algorithm
+
+### 🔁 Process Creation & Termination
+- `Exp-04(Fork).c`: Demonstration of `fork()` system call
+- `Exp-04(Wait).c`: Use of `wait()` and `exit()` for child-parent synchronization
+
+### 🔄 Synchronization
+- `Producers_Consumers.c`: Producer-Consumer problem using semaphores
+
+### 🖥️ Shell Scripting
+- `EXP_02.sh`: Shell script demonstrating basic Linux commands
+- `Basic_Terminal_Commands/`: Collection of commonly used Linux terminal commands
+
+### 📊 Experiments
+- `Experiment-03.c`: Custom logic (based on course experiments)
+
+---
+
+## 🛠️ Requirements
+
+- GCC Compiler (e.g., `sudo apt install build-essential`)
+- Linux OS (recommended)
+- Basic understanding of C and system calls
+
+---
 
 ## 🚀 Getting Started
 
-1️⃣ **Clone the repository**  
+### 🔧 Compilation & Execution
+
 ```bash
- git clone https://github.com/yourusername/bash-scripting.git
+gcc filename.c -o output
+./output
+````
+
+For shell scripts:
+
+```bash
+chmod +x script.sh
+./script.sh
 ```
 
-2️⃣ **Navigate to the directory**  
-```bash
- cd bash-scripting
+---
+
+## 🗂️ Repository Structure
+
+```
+📁 OS-Lab-C
+├── Basic_Terminal_Commands/
+├── Bankers_Algorithm.c
+├── FCFS_10.c
+├── FIFO.c
+├── FSFC.c
+├── First_Fit.c
+├── Producers_Consumers.c
+├── Exp-04(Fork).c
+├── Exp-04(Wait).c
+├── Experiment-03.c
+├── EXP_02.sh
+├── LICENSE.md
+└── README.md
 ```
 
-3️⃣ **Give execution permission**  
-```bash
- chmod +x script.sh
-```
-
-4️⃣ **Run the script**  
-```bash
- ./script.sh
-```
-
-## 🎯 Usage
-
-Each script has detailed comments explaining its usage. Simply run the script with the necessary arguments:
-```bash
- ./script.sh arg1 arg2
-```
-
-## 🛠️ Prerequisites
-
-- Linux/macOS system 🐧🍏
-- Bash shell (v4.0+ recommended) 🖥️
-- Basic knowledge of the terminal 📟
+---
 
 ## 🤝 Contributing
 
-🙌 Contributions are welcome! Feel free to fork this repo, create a new branch, and submit a PR.
+You’re welcome to contribute:
 
-1. Fork the repository 🍴
-2. Create a feature branch (`git checkout -b feature-name`) 🌱
-3. Commit changes (`git commit -m 'Add new feature'`) 📝
-4. Push to the branch (`git push origin feature-name`) 🚀
-5. Open a pull request 🛠️
+* Add more scheduling/memory algorithms
+* Fix bugs or suggest improvements
+* Include documentation or test cases
+
+Steps:
+
+```bash
+1. Fork this repository
+2. Create a new branch: git checkout -b feature-name
+3. Commit your changes: git commit -m "Add feature"
+4. Push to the branch: git push origin feature-name
+5. Create a Pull Request
+```
+
+---
 
 ## 📜 License
 
-This project is licensed under the **MIT License** 📄. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
+See the [LICENSE.md](LICENSE.md) file for more details.
 
-## 💡 Acknowledgments
-
-- Inspired by the power of automation 🤖
-- Thanks to the open-source community ❤️
+---
 
 ## 📞 Contact
 
-📧 Email: [amanantuley@gmail.com](mailto:amanantuley@gmail.com)  
-🐦 Twitter: [@amanantuley](https://twitter.com/amanantuley)  
-💼 LinkedIn: [amanantuley](https://linkedin.com/in/amanantuley)  
+**Developer**: Aman Antuley
+📧 Email: [amanantuley@gmail.com](mailto:amanantuley@gmail.com)
+🐦 Twitter: [@amanantuley](https://twitter.com/amanantuley)
+💼 LinkedIn: [Aman Antuley](https://linkedin.com/in/amanantuley)
 
-Happy Scripting! 🎉
+---
+
+📌 *Explore, learn, and master OS concepts the practical way!* 🧩🧑‍💻
+
 
